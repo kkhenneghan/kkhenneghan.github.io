@@ -1,22 +1,23 @@
 html {background-color:black;
-		font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; padding:20px;
+		font-family:"Rock Salt", cursive; padding:20px;
 		text-decoration: none;
-		color:#4cafe4;
-		alignm}
+		color:#4cafe4;}
+
+
 	.h1h1 {
 	background-color:white;
     color: #4cafe4;
-    font-family: helvetica;
-    font-size: 300%
-    color: white;}
+    font-family: 'Rock Salt', cursive;
+    font-size: 300%}
 
 #buttons li {
     float: center;
     list-style: none;
     text-align: left;
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
     background-color: #000000;
-    margin-right: 100px;
-    width: 250px;
+    margin-right: 150px;
+    width: 275px;
     line-height: 50px;
 	text-decoration-line: none;}
 
