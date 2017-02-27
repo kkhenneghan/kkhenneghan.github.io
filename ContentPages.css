@@ -1,4 +1,7 @@
-html {background-color:black;
+html 
+<link"
+
+{background-color:black;
 		font-family:"Rock Salt", cursive; padding:20px;
 		text-decoration: none;
 		color:#4cafe4;}
@@ -27,8 +30,40 @@ html {background-color:black;
 		position: fixed;
 		width: 91%;}
 
-	.img {position:fixed;
-		padding:10px;}
+	.personal {position:left;
+		padding-left: 10px;
+		background-color:white;
+		width: 50%;
+		color:black;
+		border-style: inherit;
+		border-width: 10px;
+		border-color:#4cafe4;
+		font-family:"Rock Salt", cursive; padding:20px;
+		text-align: center;
+		font-size:15px;}
 
-	#buttons {background-color:black;
-			text-decoration-color: white}
+#buttons li {
+    float: center;
+    list-style: none;
+    text-align: left;
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    background-color: #000000;
+    margin-right: 150px;
+    width: 275px;
+    line-height: 50px;
+	text-decoration-line: none;}
+
+#buttons li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+ 
+#buttons li a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #4cafe4;
+    border-style: inset;
+    border-width: 7px;
+    border-color: white;
+}
