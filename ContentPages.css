@@ -18,13 +18,12 @@ html {background-color:black;
 		}
 
 
-	.intro {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-				padding:20px;}
-	.secondparagraph {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-				padding:20px;}
 
-	#intro {background-color: black;
-		text-decoration-color: white;
-		position: fixed;
-		width: 91%;}
+	.firstparagraph{font-family: 'Amatic SC', cursive;
+				padding:20px;
+				font-size:30px;}
+	.secondparagraph {font-family: 'Amatic SC', cursive;
+				padding:20px;
+				font-size:30px;}
+
 

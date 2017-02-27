@@ -5,6 +5,7 @@ html {background-color:black;
 
 
 	.h1h1 {
+    text-align:center;
 	background-color:black;
     color: #4cafe4;
     font-family: 'Rock Salt', cursive;
@@ -14,7 +15,8 @@ html {background-color:black;
     float: center;
     list-style: none;
     text-align: left;
-    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-family:'Amatic SC', cursive;
+    font-size:35px;
     background-color: #000000;
     margin-right: 150px;
     width: 275px;
@@ -28,6 +30,7 @@ html {background-color:black;
 }
  
 #buttons li a:hover {
+    text-align:center;
     text-decoration: none;
     color: white;
     background-color: #4cafe4;
