@@ -60,7 +60,7 @@ $(document).ready(function(){
 
 		function myFunction3(weatherCondition, windy, tempy) {
 			$.ajax({
-				url:"http://words.bighugelabs.com/api/2/7a63887bd3d6f4e542ff5b845c80cc80/"+weatherCondition+"/json",
+				url:"https://words.bighugelabs.com/api/2/7a63887bd3d6f4e542ff5b845c80cc80/"+weatherCondition+"/json",
 				type: "GET",
 				dataType: "json",
 				success: function(parsed_json) {
