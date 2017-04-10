@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 			//query the wunderground api with the latitude and longitude, using those variables in the query
 			$.ajax({
-			  url : "http://api.wunderground.com/api/e81f4372c7048507/geolookup/conditions/q/" + lat1 +","+ lon1 + ".json",
+			  url : "https://api.wunderground.com/api/e81f4372c7048507/geolookup/conditions/q/" + lat1 +","+ lon1 + ".json",
 			  dataType : "jsonp",
 			  success : function(parsed_json) {
 				  var location = parsed_json['location']['city'];
