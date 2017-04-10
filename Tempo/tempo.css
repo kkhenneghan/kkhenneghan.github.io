@@ -1,13 +1,19 @@
+body {
+	margin:0;
+}
+
 .gradient {
 
-  /* can be treated like a fallback */
-  background-color: #FFF6D0;
+	margin:0;
+	padding:0;
+	width: 100%;
+	height:100vh;
 
-  /* will be "on top", if browser supports it */
-  background-image: linear-gradient(#FFF6D0, #8CDEED);
-
-  /* these will reset other properties, like background-position, but it does know what you mean */
-  background: red;
-  background: linear-gradient(#FFF6D0, #8CDEED);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8cdeed+0,fff682+100 */
+background: #8cdeed; /* Old browsers */
+background: -moz-linear-gradient(top, #8cdeed 0%, #fff682 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #8cdeed 0%,#fff682 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #8cdeed 0%,#fff682 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cdeed', endColorstr='#fff682',GradientType=0 ); /* IE6-9 */
 
 }
